@@ -1,0 +1,12 @@
+// Exercicio 3 - Declaração de função com tipos explícitos.
+package main
+
+import "fmt"
+
+func add(x int, y int) int {
+	return x + y
+}
+
+func main() {
+	fmt.Println(add(12, 14))
+}
